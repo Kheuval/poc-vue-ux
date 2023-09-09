@@ -1,0 +1,4 @@
+Installer webpack-encore : composer require symfony/webpack-encore-bundle puis npm install
+Installer stimulus : composer require symfony/stimulus-bundle puis npm install
+Installer ux-vue : composer require symfony/ux-vue puis npm install puis npm install -D vue-loader --force
+

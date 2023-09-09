@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div {{ vue_component('ButtonComponent',
+        {
+            'text': 'Click',
+            'classNames': 'border-2 rounded-md p-2 hover:shadow-md transition-all active:scale-95 text-amber-600'
+        }
+    ) }}></div>
+{% endblock %}
